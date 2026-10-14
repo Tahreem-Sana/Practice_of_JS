@@ -2,6 +2,7 @@
 
 // And it works on console that is why I add a blank HTML file here haha
 // And it works on console,
+//works on console 
 
 
 let random = Math.random();
