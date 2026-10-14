@@ -18,14 +18,15 @@ let obj = {
     "-" : "*",
 }
 
-if(random >0.1){
-
+if(random >0.1)
+{
     console.log(`The result is: ${a} ${c} ${b}`)
     alert(`the result is: ${eval(`${a}${c}${b}`)}`)
 }
 
-else{
+else
+{
     c = obj[c];
     console.log(`The result is: ${a} ${c} ${b}`)
     alert(`the result is: ${eval(`${a}${c}${b}`)}`)
-    }
+}
