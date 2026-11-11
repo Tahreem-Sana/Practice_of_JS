@@ -15,7 +15,12 @@ function checkbudget(){
     if(total> dailybudget){
         console.log("Budget End")
     }else{
+        let rest=dailybudget-total;
+        console.log("Rest money:" + rest)
     }
 }
 
 chextbuget();
+console.log("After spending money")
+expenses.push(2000);
+checkbudget();
